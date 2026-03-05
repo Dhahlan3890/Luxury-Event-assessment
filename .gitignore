@@ -3,11 +3,6 @@
 *.env
 
 # Data (large files — use S3/DVC)
-data/
-*.csv
-
-# Model artifacts
-models/
 
 # Python
 __pycache__/
@@ -22,7 +17,6 @@ venv/
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
 
 # OS
 .DS_Store
